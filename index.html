@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>testDiversidoMobile</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+		<link href="css/normalize.css"rel="stylesheet">
+		<link href="css/main.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</head>
+	<body>
+	<header class="header">
+	   <h1 id="heading" class="logo">company</h1>
+	   <a href="#menuresp" class="menu-resp">menu</a>
+	   <div class="wrap-rightbar wrap-rightbar">
+	      <button id="toggleSide" class="menu"></button>
+	      <nav class="nav">
+	         <a class="nav__link nav__link--slash nav__link" href="#dashboard">dashboard</a>
+	         <a class="nav__link nav__link--slash" href="#home">home</a>
+	         <a class="nav__link" href="#site">all site view</a>
+	      </nav>
+	      <div class="sort">
+	         <span class="sort__title">reporting periond</span>
+	         <select class="sort__period sort__period--collapsed">
+	            <option value="30">Last 30 day's</option>
+	            <option value="60">Last 60 day's</option>
+	            <option value="120">Last 120 day's</option>
+	            <option value="360">Last 360 day's</option>
+	         </select>
+	      </div>
+	      </div>
+	</header>
+	<div class="content">
+		<aside id="left" class="leftbar">
+		   <div class="leftbar__user leftbar__user">
+		      <img class="leftbar__photo" src="img/profilephoto.png" alt="userPhoto">
+		      <div class="leftbar__info leftbar__info">
+		         <span class="info-header">user name</span>
+		         <span class="info-desc">company name</span>
+		      </div>
+		   </div>
+		   <h2 class="leftbar__header leftbar__header">general</h2>
+		   <div class="leftbar__menu leftbar__menu">
+		      <a class="accordion accordion leftbar__dashboard">dashboard</a>
+		      <div class="panel panel">
+		         <ul class="panel__container panel__container">
+		            <li class="panel__item panel__item--db1"><a href="#db1">dashboard 1</a></li>
+		            <li class="panel__item panel__item--db2"><a href="#db2">dashboard 2</a></li>
+		            <li class="panel__item panel__item--db3"><a href="#db3">dashboard 3</a></li>
+		            <li class="panel__item panel__item--dbsoon"><a href="#dbsoon">coming soon</a></li>
+		         </ul>
+		      </div>
+		      <a class="accordion accordion leftbar__layout">layouts</a>
+		      <div class="panel panel">
+		      </div>
+		      <a class="accordion accordion leftbar__pages">pages</a>
+		      <div class="panel panel">
+		      </div>
+		      <a class="accordion accordion leftbar__message">message <span class="msgcount msgcount">09</span></a>
+		      <div class="panel panel">
+		      </div>
+		   </div>
+		</aside>
+		<div class="tablecontainer">
+		<table id="table" class="orders">
+		      <thead>
+		      
+		      <tr class="orders__headrow">
+		         <td colspan="4" ><a href="#">recent order<img class="recent" src="img/table/recent.png" alt="recent order"></a></td>
+		         <td colspan="4"><a class="refresh" href="#"><img src="img/table/refresh.png" alt="refresh values"></a>
+		         <a class="recent" href="#link"><img src="img/table/recent.png" alt="recent sort"></a>
+		         <a class="cancel" href="#link"><img src="img/table/cancel.png" alt="cancel sort"></a></td>
+		      </tr>
+		      <tr class="orders__names">
+		         <td>image</td>
+		         <td>product name</td>
+		         <td>product code</td>
+		         <td>status</td>
+		         <td>purchased on</td>
+		         <td>price</td>
+		         <td>quantity</td>
+		         <td>tracking no#</td>
+		      </tr>
+		        </thead>
+		<tbody>
+		      <tr class="orders__row">
+		         <td><img src="../img/table/product1.png" alt="product1"></td>
+		         <td>your product title here</td>
+		         <td>3bsd59</td>
+		         <td>paid</td>
+		         <td>27 sep 2015</td>
+		         <td>99.00$</td>
+		         <td>2</td>
+		         <td>#bg6r9853lp</td>
+		      </tr>
+		      <tr class="orders__row">
+		         <td><img src="../img/table/product2.png" alt="product2"></td>
+		         <td>your product title here</td>
+		         <td>3bh87g</td>
+		         <td>pending</td>
+		         <td>08 sep 2015</td>
+		         <td>99.00$</td>
+		         <td>2</td>
+		         <td>#398qrm83b</td>
+		      </tr>
+		      </tbody>
+		</table>
+		</div>
+	</div>
+	<script src="js/common.js">
+	</script>
+	</body>
+</html>

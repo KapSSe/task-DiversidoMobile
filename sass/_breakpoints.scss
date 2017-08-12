@@ -1,0 +1,178 @@
+    @media only screen and (max-width: 1200px) {
+      .leftbar {
+        position: absolute;
+        z-index: 5;
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        left: -200%;
+        &--active {
+          left: 0;
+        }
+        &__user {
+          margin-left: 0;
+          background: #253340
+        }
+        &__header {
+          margin: 0 auto;
+          padding: 40px;
+        }
+        &__menu {
+          margin-left: 0;
+          height: 100%;
+        }
+        .accordion {
+          width: 90px;
+          margin: 0 auto;
+        }
+      }
+      .panel__item {
+        text-align: center;
+        &--db1:before {
+          left: 45%;
+        }
+        &--db2:before {
+          left: 45%;
+        }
+        &--db3:before {
+          left: 45%;
+        }
+        &--dbsoon:before {
+          left: 45%;
+        }
+      }
+      .tablecontainer {
+        width: 100%;
+      }
+      .wrap-rightbar {
+        z-index: 2;
+        width: 100%;
+      }
+      .logo {
+        width: 120px;
+        z-index: 1;
+        &:first-letter {
+          padding-left: 29px;
+          padding-right: 100px;
+        }
+      }
+      #toggleSide {
+        display: none;
+      }
+      .menu-resp {
+        display: initial;
+      }
+    }
+
+    @media only screen and (max-width: 992px) {
+      .sort {
+        display: none;
+      }
+      .menu-resp {
+        left: 90%
+      }
+      table,
+      thead,
+      tbody,
+      th,
+      td,
+      tr {
+        display: block;
+      }
+      thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+      }
+      tr {
+        border: 1px solid #e8e8e8;
+      }
+      td {
+        border: none;
+        text-align: center;
+        position: relative;
+        margin-left: 50%;
+      }
+      td:before {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -70%;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+      }
+      td:nth-of-type(1):before {
+        content: "Image";
+        font-weight: bold;
+      }
+      td:nth-of-type(2):before {
+        content: "Product Name";
+        font-weight: bold;
+      }
+      td:nth-of-type(3):before {
+        content: "Product code";
+        font-weight: bold;
+      }
+      td:nth-of-type(4):before {
+        content: "Status";
+        font-weight: bold;
+      }
+      td:nth-of-type(5):before {
+        content: "Purchased on";
+        font-weight: bold;
+      }
+      td:nth-of-type(6):before {
+        content: "Price";
+        font-weight: bold;
+      }
+      td:nth-of-type(7):before {
+        content: "Quantity";
+        font-weight: bold;
+      }
+      td:nth-of-type(8):before {
+        content: "Tracking no#";
+        font-weight: bold;
+      }
+    }
+
+    @media only screen and (max-width: 768px) {
+      nav {
+        display: none;
+      }
+      .menu-resp {
+        left: 90%;
+        transform: translateX(-50%);
+      }
+    }
+
+    @media only screen and (max-width: 480px) {
+
+
+      .leftbar{
+        top:0;
+        z-index: 3;
+      }
+      .leftbar__header{
+        padding: 25px;
+      }
+      .leftbar__user{
+        padding: 10px;
+      }
+      .panel__item {
+        text-align: left;
+        &--db1:before {
+        display: none;
+        }
+        &--db2:before {
+          display: none;
+        }
+        &--db3:before {
+          display: none;
+        }
+        &--dbsoon:before {
+          display: none;
+        }
+    }
+  }
+    @media only screen and (max-width: 320px) {}

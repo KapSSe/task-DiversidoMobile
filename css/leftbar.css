@@ -1,0 +1,10 @@
+.leftbar {
+  max-width: 1350px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  color: white;
+  text-transform: capitalize;
+  background: #4a868c; }

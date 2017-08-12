@@ -1,0 +1,60 @@
+      .wrap-rightbar--collapsed {
+         z-index: 2;
+         width: 100%;
+      }
+
+      .logo--collapsed {
+         width: 120px;
+         z-index: 1;
+         &:first-letter {
+            padding-left: 29px;
+            padding-right: 100px;
+         }
+      }
+
+      .leftbar--collapsed {
+         width: 120px;
+      }
+
+      .leftbar {
+         &__user--collapsed {
+            width: 120px;
+            box-sizing: border-box;
+         }
+         &__info--collapsed {
+            display: none;
+         }
+         &__header--collapsed {
+            display: none;
+         }
+         &__menu--collapsed a {
+            font-size: 0;
+         }
+         &__menu--collapsed li {
+            display: none;
+         }
+      }
+
+      .panel--collapsed {
+         display: none;
+      }
+
+      .accordion--collapsed {
+         background-position: 50% 50%;
+         padding: 20px 0;
+      }
+
+      .panel__container--collapsed {
+         display: none;
+      }
+
+      .msgcount--collapsed {
+         font-size: 12px;
+         padding: 2px 3px;
+         transform: translateY(-75%);
+      }
+
+      .tablecontainer--collapsed{
+         margin: 0;
+         width: 100%;
+      }
