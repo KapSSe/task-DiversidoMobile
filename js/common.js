@@ -17,7 +17,7 @@ for (i = 0; i < acc.length; i++) {
   
 
  	$('#toggleSide').on('click', function(){
-		$('.logo').toggleClass('logo' + '--collapsed').toggleClass('event');
+		$('.logo').toggleClass('logo' + '--collapsed').addClass('event');
 		$('.wrap-rightbar').toggleClass('wrap-rightbar' + '--collapsed');
 		$('.leftbar').toggleClass('leftbar' + '--collapsed');
 		$('.leftbar__user').toggleClass('leftbar__user' + '--collapsed');
