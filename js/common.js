@@ -27,6 +27,7 @@ for (i = 0; i < acc.length; i++) {
 		$('.accordion').toggleClass('accordion' + '--collapsed');
 		$('.msgcount').toggleClass('msgcount' + '--collapsed');
 		$('.tablecontainer').toggleClass('tablecontainer' + '--collapsed');
+		$('.menu').toggleClass('menu' + '--active');
 		if ($('.logo').is('.logo--collapsed, .event')){
 			$('.leftbar').on('mouseenter mouseleave', function(){
 				$('.logo').toggleClass('logo' + '--collapsed').removeClass('event');

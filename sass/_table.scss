@@ -59,6 +59,23 @@
   }
 }
 
+.fa-angle-down{
+  padding: 10px;
+}
+
 .recent {
   padding: 0 10px;
+}
+
+.dropdown, .refresh, .recent, .cancel{
+  background: none;
+  border:none;
+  outline: none;
+  color: #888888;
+  cursor: pointer;
+} 
+.dropdown{
+text-transform: capitalize;
+ font-family: 'Lato', sans-serif;
+ font-size: 1.25em;
 }

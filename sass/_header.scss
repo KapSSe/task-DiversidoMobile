@@ -50,10 +50,13 @@ height: 37px;
 border: none;
 border-radius: 50%;
 background: #46c1fa;
-background-image: url(../img/menuicon.png);
+background-image: url(../img/menuiconactive.png);
 background-position: center;
 background-repeat: no-repeat;
 background-size:25px;
+   &--active{
+   background-image: url(../img/menuicon.png);
+   }
    &-resp{
       display: none;
       position: absolute;
