@@ -54,7 +54,8 @@ background-image: url(../img/menuiconactive.png);
 background-position: center;
 background-repeat: no-repeat;
 background-size:25px;
-   &--active{
+outline: none;
+&--active{
    background-image: url(../img/menuicon.png);
    }
    &-resp{

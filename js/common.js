@@ -1,8 +1,12 @@
+"use strict";
+
+$(document).ready(function(){
+
+//accordion
 
 var acc = document.getElementsByClassName("accordion");
-var i;
 
-for (i = 0; i < acc.length; i++) {
+for (var i = 0; i < acc.length; i++) {
     acc[i].onclick = function(){
         this.classList.toggle("active");
 
@@ -15,6 +19,7 @@ for (i = 0; i < acc.length; i++) {
     }
 }
   
+//left-bar collapse menu and hover events
 
  	$('#toggleSide').on('click', function(){
 		$('.logo').toggleClass('logo' + '--collapsed').addClass('event');
@@ -45,8 +50,11 @@ for (i = 0; i < acc.length; i++) {
 
 	})
 	 
-
+//menu-responsive
 	
 	$('.menu-resp').on('click', function(){
 		$('.leftbar').toggleClass('leftbar--active');
 	})
+
+
+})
